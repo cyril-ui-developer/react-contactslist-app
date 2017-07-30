@@ -5,27 +5,40 @@ import ListContacts from './ListContacts'
 
 class App extends Component {
     state ={
-        contacts : [
-  {
-    "id": "ryan",
-    "name": "Ryan Florence",
-    "email": "ryan@reacttraining.com",
-    "avatarURL": "http://localhost:5001/ryan.jpg"
-  },
-  {
-    "id": "michael",
-    "name": "Michael Jackson",
-    "email": "michael@reacttraining.com",
-    "avatarURL": "http://localhost:5001/michael.jpg"
-  },
-  {
-    "id": "tyler",
-    "name": "Tyler McGinnis",
-    "email": "tyler@reacttraining.com",
-    "avatarURL": "http://localhost:5001/tyler.jpg"
-  }
-]
+       contacts: [
+    {
+      id: 'cyril',
+      name: 'Cyril Ajieh',
+      email: 'cyril@cyrilajieh.com',
+      avatarURL: 'http://localhost:5001/cyril.jpg'
+    },
+    {
+      id: 'faith',
+      name: 'Faith Oghele Ajieh',
+      email: 'faith@cyrilajieh.com',
+      avatarURL:'http://localhost:5001/faith.jpg'
+    },
+    {
+      id: 'meekness',
+      name: 'Meekness Cyril',
+      email: 'meekness@cyrilajiehcom',
+      avatarURL: 'http://localhost:5001/cyril.jpg'
+    },
+    {
+      id: 'faithful',
+      name: 'Faithful Cyril',
+      email: 'aithfulf@cyrilajieh.com',
+      avatarURL:'http://localhost:5001/cyril.jpg'
+    },
+    {
+      id: 'love',
+      name: 'Love Cyril',
+      email: 'love@cyrilajieh.com',
+      avatarURL: 'http://localhost:5001/faith.jpg'
     }
+  ]
+    }
+   
 
  removeContact = (contact) =>{
    this.setState((state) =>({
